@@ -1,0 +1,2464 @@
+alib.scenariogeneration.ScenarioParameterContainer @ 0x21cad139c18
+
+ scenario_index_offset: 0
+
+ scenario_list:
+  [<alib.datamodel.Scenario object at 0x0000021CAD139BE0>]
+  alib.datamodel.Scenario @ 0x21cad139be0
+   name: scenario_0.0_rep_0
+   objective: 1
+   requests:
+    [<alib.datamodel.Request object at 0x0000021CAD139D30>, <alib.datamodel.Request object at 0x0000021CAD14D978>, <alib.datamodel.Request object at 0x0000021CAD1571D0>, <alib.datamodel.Request object at 0x0000021CAD157908>, <alib.datamodel.Request object at 0x0000021CAD160198>]
+    alib.datamodel.Request @ 0x21cad139d30
+     _shortest_paths_attribute_identifier: cost
+     edge:
+      ('6', '4'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('3', '10'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('3', '1'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('3', '7'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('10', '1'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('10', '2'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('10', '5'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('10', '9'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('1', '3'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('2', '6'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('2', '1'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('2', '4'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('8', '6'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('8', '3'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('8', '10'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('8', '2'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('8', '7'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('5', '10'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('5', '8'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('7', '6'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('7', '3'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('9', '6'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('9', '3'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('9', '7'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+      ('4', '10'):
+       demand: 0.36674394036280356
+       allowed_edges: None
+     edges:
+      {('3', '10'), ('10', '9'), ('2', '4'), ('4', '10'), ('10', '5'), ('8', '10'), ('9', '3'), ('3', '7'), ('8', '6'), ('5', '10'), ('9', '7'), ('3', '1'), ('8', '2'), ('2', '6'), ('8', '3'), ('1', '3'), ('7', '3'), ('2', '1'), ('5', '8'), ('9', '6'), ('10', '2'), ('6', '4'), ('7', '6'), ('10', '1'), ('8', '7')}
+       ('3', '10')
+       ('10', '9')
+       ('2', '4')
+       ('4', '10')
+       ('10', '5')
+       ('8', '10')
+       ('9', '3')
+       ('3', '7')
+       ('8', '6')
+       ('5', '10')
+       ('9', '7')
+       ('3', '1')
+       ('8', '2')
+       ('2', '6')
+       ('8', '3')
+       ('1', '3')
+       ('7', '3')
+       ('2', '1')
+       ('5', '8')
+       ('9', '6')
+       ('10', '2')
+       ('6', '4')
+       ('7', '6')
+       ('10', '1')
+       ('8', '7')
+     graph:
+      profit_calculation_time: 0.0
+     in_edges:
+      1:
+       [('3', '1'), ('10', '1'), ('2', '1')]
+        ('3', '1')
+        ('10', '1')
+        ('2', '1')
+      2:
+       [('10', '2'), ('8', '2')]
+        ('10', '2')
+        ('8', '2')
+      3:
+       [('1', '3'), ('8', '3'), ('7', '3'), ('9', '3')]
+        ('1', '3')
+        ('8', '3')
+        ('7', '3')
+        ('9', '3')
+      4:
+       [('6', '4'), ('2', '4')]
+        ('6', '4')
+        ('2', '4')
+      5:
+       [('10', '5')]
+      6:
+       [('2', '6'), ('8', '6'), ('7', '6'), ('9', '6')]
+        ('2', '6')
+        ('8', '6')
+        ('7', '6')
+        ('9', '6')
+      7:
+       [('3', '7'), ('8', '7'), ('9', '7')]
+        ('3', '7')
+        ('8', '7')
+        ('9', '7')
+      8:
+       [('5', '8')]
+      9:
+       [('10', '9')]
+      10:
+       [('3', '10'), ('8', '10'), ('5', '10'), ('4', '10')]
+        ('3', '10')
+        ('8', '10')
+        ('5', '10')
+        ('4', '10')
+     in_neighbors:
+      1:
+       ['3', '10', '2']
+      2:
+       ['10', '8']
+      3:
+       ['1', '8', '7', '9']
+      4:
+       ['6', '2']
+      5:
+       ['10']
+      6:
+       ['2', '8', '7', '9']
+      7:
+       ['3', '8', '9']
+      8:
+       ['5']
+      9:
+       ['10']
+      10:
+       ['3', '8', '5', '4']
+     name: vnet_1
+     node:
+      1:
+       demand: 1.8407289340527617
+       allowed_nodes:
+        {'46', '44', '34', '45'}
+       type: t1
+      2:
+       demand: 2.2147912809966965
+       allowed_nodes:
+        {'7', '3', '6', '2'}
+       type: t3
+      3:
+       demand: 2.2147912809966965
+       allowed_nodes:
+        {'45', '3', '7', '2'}
+       type: t3
+      4:
+       demand: 2.2147912809966965
+       allowed_nodes:
+        {'8', '7', '31', '2'}
+       type: t3
+      5:
+       demand: 2.2147912809966965
+       allowed_nodes:
+        {'7', '3', '6', '2'}
+       type: t3
+      6:
+       demand: 1.8546962094763753
+       allowed_nodes:
+        {'24', '23', '28', '22'}
+       type: t2
+      7:
+       demand: 1.8407289340527617
+       allowed_nodes:
+        {'15', '16', '21', '40'}
+       type: t1
+      8:
+       demand: 1.8407289340527617
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      9:
+       demand: 1.8546962094763753
+       allowed_nodes:
+        {'42', '23', '46', '28'}
+       type: t2
+      10:
+       demand: 1.8407289340527617
+       allowed_nodes:
+        {'46', '44', '34', '45'}
+       type: t1
+     nodes:
+      {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+     out_edges:
+      1:
+       [('1', '3')]
+      2:
+       [('2', '6'), ('2', '1'), ('2', '4')]
+        ('2', '6')
+        ('2', '1')
+        ('2', '4')
+      3:
+       [('3', '10'), ('3', '1'), ('3', '7')]
+        ('3', '10')
+        ('3', '1')
+        ('3', '7')
+      4:
+       [('4', '10')]
+      5:
+       [('5', '10'), ('5', '8')]
+        ('5', '10')
+        ('5', '8')
+      6:
+       [('6', '4')]
+      7:
+       [('7', '6'), ('7', '3')]
+        ('7', '6')
+        ('7', '3')
+      8:
+       [('8', '6'), ('8', '3'), ('8', '10'), ('8', '2'), ('8', '7')]
+        ('8', '6')
+        ('8', '3')
+        ('8', '10')
+        ('8', '2')
+        ('8', '7')
+      9:
+       [('9', '6'), ('9', '3'), ('9', '7')]
+        ('9', '6')
+        ('9', '3')
+        ('9', '7')
+      10:
+       [('10', '1'), ('10', '2'), ('10', '5'), ('10', '9')]
+        ('10', '1')
+        ('10', '2')
+        ('10', '5')
+        ('10', '9')
+     out_neighbors:
+      1:
+       ['3']
+      2:
+       ['6', '1', '4']
+      3:
+       ['10', '1', '7']
+      4:
+       ['10']
+      5:
+       ['10', '8']
+      6:
+       ['4']
+      7:
+       ['6', '3']
+      8:
+       ['6', '3', '10', '2', '7']
+      9:
+       ['6', '3', '7']
+      10:
+       ['1', '2', '5', '9']
+     profit: 269.92144825569824
+     shortest_paths_costs: None
+     types:
+      {'t3', 't2', 't1'}
+    alib.datamodel.Request @ 0x21cad14d978
+     _shortest_paths_attribute_identifier: cost
+     edge:
+      ('6', '2'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('3', '2'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('3', '9'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('1', '6'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('1', '4'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('2', '9'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('8', '6'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('5', '6'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('5', '4'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('7', '6'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+      ('4', '7'):
+       demand: 1.6787333390780368
+       allowed_edges: None
+     edges:
+      {('5', '6'), ('1', '6'), ('3', '2'), ('8', '6'), ('3', '9'), ('2', '9'), ('7', '6'), ('1', '4'), ('5', '4'), ('4', '7'), ('6', '2')}
+       ('5', '6')
+       ('1', '6')
+       ('3', '2')
+       ('8', '6')
+       ('3', '9')
+       ('2', '9')
+       ('7', '6')
+       ('1', '4')
+       ('5', '4')
+       ('4', '7')
+       ('6', '2')
+     graph:
+      profit_calculation_time: 0.015625
+     in_edges:
+      1:
+       []
+      2:
+       [('6', '2'), ('3', '2')]
+        ('6', '2')
+        ('3', '2')
+      3:
+       []
+      4:
+       [('1', '4'), ('5', '4')]
+        ('1', '4')
+        ('5', '4')
+      5:
+       []
+      6:
+       [('1', '6'), ('8', '6'), ('5', '6'), ('7', '6')]
+        ('1', '6')
+        ('8', '6')
+        ('5', '6')
+        ('7', '6')
+      7:
+       [('4', '7')]
+      8:
+       []
+      9:
+       [('3', '9'), ('2', '9')]
+        ('3', '9')
+        ('2', '9')
+     in_neighbors:
+      1:
+       []
+      2:
+       ['6', '3']
+      3:
+       []
+      4:
+       ['1', '5']
+      5:
+       []
+      6:
+       ['1', '8', '5', '7']
+      7:
+       ['4']
+      8:
+       []
+      9:
+       ['3', '2']
+     name: vnet_2
+     node:
+      1:
+       demand: 8.425750747900718
+       allowed_nodes:
+        {'15', '16', '24', '21'}
+       type: t1
+      2:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'33', '4', '27', '26'}
+       type: t2
+      3:
+       demand: 8.425750747900718
+       allowed_nodes:
+        {'28', '34', '35', '40'}
+       type: t1
+      4:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'24', '23', '28', '22'}
+       type: t2
+      5:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'33', '4', '27', '30'}
+       type: t2
+      6:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'33', '4', '27', '30'}
+       type: t2
+      7:
+       demand: 8.425750747900718
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      8:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'4', '42', '3', '46'}
+       type: t2
+      9:
+       demand: 8.489684540198718
+       allowed_nodes:
+        {'24', '23', '28', '22'}
+       type: t2
+     nodes:
+      {'3', '7', '6', '1', '5', '8', '9', '4', '2'}
+     out_edges:
+      1:
+       [('1', '6'), ('1', '4')]
+        ('1', '6')
+        ('1', '4')
+      2:
+       [('2', '9')]
+      3:
+       [('3', '2'), ('3', '9')]
+        ('3', '2')
+        ('3', '9')
+      4:
+       [('4', '7')]
+      5:
+       [('5', '6'), ('5', '4')]
+        ('5', '6')
+        ('5', '4')
+      6:
+       [('6', '2')]
+      7:
+       [('7', '6')]
+      8:
+       [('8', '6')]
+      9:
+       []
+     out_neighbors:
+      1:
+       ['6', '4']
+      2:
+       ['9']
+      3:
+       ['2', '9']
+      4:
+       ['7']
+      5:
+       ['6', '4']
+      6:
+       ['2']
+      7:
+       ['6']
+      8:
+       ['6']
+      9:
+       []
+     profit: 888.4312518487013
+     shortest_paths_costs: None
+     types:
+      {'t2', 't1'}
+    alib.datamodel.Request @ 0x21cad1571d0
+     _shortest_paths_attribute_identifier: cost
+     edge:
+      ('6', '3'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('6', '10'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('6', '9'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('3', '2'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('10', '6'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('2', '10'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('2', '7'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('8', '1'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('8', '9'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('5', '6'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('5', '2'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('7', '10'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('9', '6'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('9', '4'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('4', '1'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+      ('4', '2'):
+       demand: 0.9932321749176909
+       allowed_edges: None
+     edges:
+      {('7', '10'), ('8', '9'), ('5', '6'), ('6', '10'), ('8', '1'), ('9', '6'), ('5', '2'), ('6', '9'), ('2', '10'), ('4', '2'), ('9', '4'), ('4', '1'), ('6', '3'), ('10', '6'), ('3', '2'), ('2', '7')}
+       ('7', '10')
+       ('8', '9')
+       ('5', '6')
+       ('6', '10')
+       ('8', '1')
+       ('9', '6')
+       ('5', '2')
+       ('6', '9')
+       ('2', '10')
+       ('4', '2')
+       ('9', '4')
+       ('4', '1')
+       ('6', '3')
+       ('10', '6')
+       ('3', '2')
+       ('2', '7')
+     graph:
+      profit_calculation_time: 0.015625
+     in_edges:
+      1:
+       [('8', '1'), ('4', '1')]
+        ('8', '1')
+        ('4', '1')
+      2:
+       [('3', '2'), ('5', '2'), ('4', '2')]
+        ('3', '2')
+        ('5', '2')
+        ('4', '2')
+      3:
+       [('6', '3')]
+      4:
+       [('9', '4')]
+      5:
+       []
+      6:
+       [('10', '6'), ('5', '6'), ('9', '6')]
+        ('10', '6')
+        ('5', '6')
+        ('9', '6')
+      7:
+       [('2', '7')]
+      8:
+       []
+      9:
+       [('6', '9'), ('8', '9')]
+        ('6', '9')
+        ('8', '9')
+      10:
+       [('6', '10'), ('2', '10'), ('7', '10')]
+        ('6', '10')
+        ('2', '10')
+        ('7', '10')
+     in_neighbors:
+      1:
+       ['8', '4']
+      2:
+       ['3', '5', '4']
+      3:
+       ['6']
+      4:
+       ['9']
+      5:
+       []
+      6:
+       ['10', '5', '9']
+      7:
+       ['2']
+      8:
+       []
+      9:
+       ['6', '8']
+      10:
+       ['6', '2', '7']
+     name: vnet_3
+     node:
+      1:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'15', '16', '25', '14'}
+       type: t3
+      2:
+       demand: 4.985143587633704
+       allowed_nodes:
+        {'28', '34', '40', '45'}
+       type: t1
+      3:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'29', '42', '2', '45'}
+       type: t3
+      4:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'29', '42', '14', '45'}
+       type: t3
+      5:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'29', '42', '2', '45'}
+       type: t3
+      6:
+       demand: 4.985143587633704
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      7:
+       demand: 4.985143587633704
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      8:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'7', '3', '6', '2'}
+       type: t3
+      9:
+       demand: 5.998195795237739
+       allowed_nodes:
+        {'8', '31', '9', '2'}
+       type: t3
+      10:
+       demand: 5.022970381262377
+       allowed_nodes:
+        {'33', '4', '27', '30'}
+       type: t2
+     nodes:
+      {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+     out_edges:
+      1:
+       []
+      2:
+       [('2', '10'), ('2', '7')]
+        ('2', '10')
+        ('2', '7')
+      3:
+       [('3', '2')]
+      4:
+       [('4', '1'), ('4', '2')]
+        ('4', '1')
+        ('4', '2')
+      5:
+       [('5', '6'), ('5', '2')]
+        ('5', '6')
+        ('5', '2')
+      6:
+       [('6', '3'), ('6', '10'), ('6', '9')]
+        ('6', '3')
+        ('6', '10')
+        ('6', '9')
+      7:
+       [('7', '10')]
+      8:
+       [('8', '1'), ('8', '9')]
+        ('8', '1')
+        ('8', '9')
+      9:
+       [('9', '6'), ('9', '4')]
+        ('9', '6')
+        ('9', '4')
+      10:
+       [('10', '6')]
+     out_neighbors:
+      1:
+       []
+      2:
+       ['10', '7']
+      3:
+       ['2']
+      4:
+       ['1', '2']
+      5:
+       ['6', '2']
+      6:
+       ['3', '10', '9']
+      7:
+       ['10']
+      8:
+       ['1', '9']
+      9:
+       ['6', '4']
+      10:
+       ['6']
+     profit: 627.9975113205179
+     shortest_paths_costs: None
+     types:
+      {'t3', 't2', 't1'}
+    alib.datamodel.Request @ 0x21cad157908
+     _shortest_paths_attribute_identifier: cost
+     edge:
+      ('6', '3'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('6', '8'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('6', '4'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('3', '1'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('3', '5'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('3', '9'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('3', '4'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('10', '3'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('10', '1'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('1', '3'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('1', '10'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('1', '2'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('5', '6'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('5', '3'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('7', '5'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('7', '9'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('9', '1'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('9', '2'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('9', '4'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('4', '2'):
+       demand: 2.654488139023237
+       allowed_edges: None
+      ('4', '5'):
+       demand: 2.654488139023237
+       allowed_edges: None
+     edges:
+      {('9', '2'), ('3', '9'), ('3', '5'), ('4', '5'), ('1', '10'), ('10', '3'), ('5', '3'), ('3', '1'), ('7', '5'), ('6', '3'), ('1', '2'), ('5', '6'), ('9', '1'), ('3', '4'), ('1', '3'), ('4', '2'), ('6', '4'), ('7', '9'), ('10', '1'), ('6', '8'), ('9', '4')}
+       ('9', '2')
+       ('3', '9')
+       ('3', '5')
+       ('4', '5')
+       ('1', '10')
+       ('10', '3')
+       ('5', '3')
+       ('3', '1')
+       ('7', '5')
+       ('6', '3')
+       ('1', '2')
+       ('5', '6')
+       ('9', '1')
+       ('3', '4')
+       ('1', '3')
+       ('4', '2')
+       ('6', '4')
+       ('7', '9')
+       ('10', '1')
+       ('6', '8')
+       ('9', '4')
+     graph:
+      profit_calculation_time: 0.0
+     in_edges:
+      1:
+       [('3', '1'), ('10', '1'), ('9', '1')]
+        ('3', '1')
+        ('10', '1')
+        ('9', '1')
+      2:
+       [('1', '2'), ('9', '2'), ('4', '2')]
+        ('1', '2')
+        ('9', '2')
+        ('4', '2')
+      3:
+       [('6', '3'), ('10', '3'), ('1', '3'), ('5', '3')]
+        ('6', '3')
+        ('10', '3')
+        ('1', '3')
+        ('5', '3')
+      4:
+       [('6', '4'), ('3', '4'), ('9', '4')]
+        ('6', '4')
+        ('3', '4')
+        ('9', '4')
+      5:
+       [('3', '5'), ('7', '5'), ('4', '5')]
+        ('3', '5')
+        ('7', '5')
+        ('4', '5')
+      6:
+       [('5', '6')]
+      7:
+       []
+      8:
+       [('6', '8')]
+      9:
+       [('3', '9'), ('7', '9')]
+        ('3', '9')
+        ('7', '9')
+      10:
+       [('1', '10')]
+     in_neighbors:
+      1:
+       ['3', '10', '9']
+      2:
+       ['1', '9', '4']
+      3:
+       ['6', '10', '1', '5']
+      4:
+       ['6', '3', '9']
+      5:
+       ['3', '7', '4']
+      6:
+       ['5']
+      7:
+       []
+      8:
+       ['6']
+      9:
+       ['3', '7']
+      10:
+       ['1']
+     name: vnet_4
+     node:
+      1:
+       demand: 13.424268400115958
+       allowed_nodes:
+        {'33', '4', '27', '26'}
+       type: t2
+      2:
+       demand: 13.424268400115958
+       allowed_nodes:
+        {'33', '4', '6', '7'}
+       type: t2
+      3:
+       demand: 13.323173432030663
+       allowed_nodes:
+        {'7', '35', '26', '45'}
+       type: t1
+      4:
+       demand: 13.424268400115958
+       allowed_nodes:
+        {'24', '23', '28', '22'}
+       type: t2
+      5:
+       demand: 16.030632108063852
+       allowed_nodes:
+        {'29', '42', '14', '45'}
+       type: t3
+      6:
+       demand: 13.424268400115958
+       allowed_nodes:
+        {'33', '4', '27', '30'}
+       type: t2
+      7:
+       demand: 13.323173432030663
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      8:
+       demand: 13.424268400115958
+       allowed_nodes:
+        {'33', '4', '27', '26'}
+       type: t2
+      9:
+       demand: 13.323173432030663
+       allowed_nodes:
+        {'28', '34', '35', '40'}
+       type: t1
+      10:
+       demand: 16.030632108063852
+       allowed_nodes:
+        {'7', '3', '6', '2'}
+       type: t3
+     nodes:
+      {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+     out_edges:
+      1:
+       [('1', '3'), ('1', '10'), ('1', '2')]
+        ('1', '3')
+        ('1', '10')
+        ('1', '2')
+      2:
+       []
+      3:
+       [('3', '1'), ('3', '5'), ('3', '9'), ('3', '4')]
+        ('3', '1')
+        ('3', '5')
+        ('3', '9')
+        ('3', '4')
+      4:
+       [('4', '2'), ('4', '5')]
+        ('4', '2')
+        ('4', '5')
+      5:
+       [('5', '6'), ('5', '3')]
+        ('5', '6')
+        ('5', '3')
+      6:
+       [('6', '3'), ('6', '8'), ('6', '4')]
+        ('6', '3')
+        ('6', '8')
+        ('6', '4')
+      7:
+       [('7', '5'), ('7', '9')]
+        ('7', '5')
+        ('7', '9')
+      8:
+       []
+      9:
+       [('9', '1'), ('9', '2'), ('9', '4')]
+        ('9', '1')
+        ('9', '2')
+        ('9', '4')
+      10:
+       [('10', '3'), ('10', '1')]
+        ('10', '3')
+        ('10', '1')
+     out_neighbors:
+      1:
+       ['3', '10', '2']
+      2:
+       []
+      3:
+       ['1', '5', '9', '4']
+      4:
+       ['2', '5']
+      5:
+       ['6', '3']
+      6:
+       ['3', '8', '4']
+      7:
+       ['5', '9']
+      8:
+       []
+      9:
+       ['1', '2', '4']
+      10:
+       ['3', '1']
+     profit: 1868.5546132289765
+     shortest_paths_costs: None
+     types:
+      {'t3', 't2', 't1'}
+    alib.datamodel.Request @ 0x21cad160198
+     _shortest_paths_attribute_identifier: cost
+     edge:
+      ('6', '1'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('6', '2'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('3', '1'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('3', '5'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('1', '3'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('1', '4'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('2', '4'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('8', '3'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('8', '2'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('5', '9'):
+       demand: 2.611760822081863
+       allowed_edges: None
+      ('7', '2'):
+       demand: 2.611760822081863
+       allowed_edges: None
+     edges:
+      {('5', '9'), ('6', '1'), ('2', '4'), ('8', '2'), ('1', '4'), ('8', '3'), ('1', '3'), ('3', '1'), ('6', '2'), ('3', '5'), ('7', '2')}
+       ('5', '9')
+       ('6', '1')
+       ('2', '4')
+       ('8', '2')
+       ('1', '4')
+       ('8', '3')
+       ('1', '3')
+       ('3', '1')
+       ('6', '2')
+       ('3', '5')
+       ('7', '2')
+     graph:
+      profit_calculation_time: 0.015625
+     in_edges:
+      1:
+       [('6', '1'), ('3', '1')]
+        ('6', '1')
+        ('3', '1')
+      2:
+       [('6', '2'), ('8', '2'), ('7', '2')]
+        ('6', '2')
+        ('8', '2')
+        ('7', '2')
+      3:
+       [('1', '3'), ('8', '3')]
+        ('1', '3')
+        ('8', '3')
+      4:
+       [('1', '4'), ('2', '4')]
+        ('1', '4')
+        ('2', '4')
+      5:
+       [('3', '5')]
+      6:
+       []
+      7:
+       []
+      8:
+       []
+      9:
+       [('5', '9')]
+     in_neighbors:
+      1:
+       ['6', '3']
+      2:
+       ['6', '8', '7']
+      3:
+       ['1', '8']
+      4:
+       ['1', '2']
+      5:
+       ['3']
+      6:
+       []
+      7:
+       []
+      8:
+       []
+      9:
+       ['5']
+     name: vnet_5
+     node:
+      1:
+       demand: 15.77259897211477
+       allowed_nodes:
+        {'29', '42', '14', '45'}
+       type: t3
+      2:
+       demand: 15.77259897211477
+       allowed_nodes:
+        {'15', '16', '29', '14'}
+       type: t3
+      3:
+       demand: 15.77259897211477
+       allowed_nodes:
+        {'15', '16', '29', '14'}
+       type: t3
+      4:
+       demand: 13.108720240273424
+       allowed_nodes:
+        {'7', '35', '26', '45'}
+       type: t1
+      5:
+       demand: 13.108720240273424
+       allowed_nodes:
+        {'7', '46', '3', '45'}
+       type: t1
+      6:
+       demand: 13.108720240273424
+       allowed_nodes:
+        {'46', '44', '34', '45'}
+       type: t1
+      7:
+       demand: 13.108720240273424
+       allowed_nodes:
+        {'7', '35', '26', '45'}
+       type: t1
+      8:
+       demand: 15.77259897211477
+       allowed_nodes:
+        {'8', '31', '9', '2'}
+       type: t3
+      9:
+       demand: 13.208187958012765
+       allowed_nodes:
+        {'24', '23', '28', '22'}
+       type: t2
+     nodes:
+      {'3', '7', '6', '1', '5', '8', '9', '4', '2'}
+     out_edges:
+      1:
+       [('1', '3'), ('1', '4')]
+        ('1', '3')
+        ('1', '4')
+      2:
+       [('2', '4')]
+      3:
+       [('3', '1'), ('3', '5')]
+        ('3', '1')
+        ('3', '5')
+      4:
+       []
+      5:
+       [('5', '9')]
+      6:
+       [('6', '1'), ('6', '2')]
+        ('6', '1')
+        ('6', '2')
+      7:
+       [('7', '2')]
+      8:
+       [('8', '3'), ('8', '2')]
+        ('8', '3')
+        ('8', '2')
+      9:
+       []
+     out_neighbors:
+      1:
+       ['3', '4']
+      2:
+       ['4']
+      3:
+       ['1', '5']
+      4:
+       []
+      5:
+       ['9']
+      6:
+       ['1', '2']
+      7:
+       ['2']
+      8:
+       ['3', '2']
+      9:
+       []
+     profit: 1509.477593233857
+     shortest_paths_costs: None
+     types:
+      {'t3', 't2', 't1'}
+   substrate: Substrate Bellcanada with following attributes: 
+		Nodes{'16', '3', '6', '26', '1', '5', '38', '18', '19', '45', '20', '41', '2', '46', '10', '27', '34', '31', '7', '29', '17', '9', '39', '4', '11', '42', '21', '30', '13', '43', '32', '40', '23', '36', '28', '15', '44', '22', '12', '0', '35', '14', '24', '33', '8', '37', '47', '25'}
+		Edges{('9', '8'), ('29', '43'), ('18', '17'), ('20', '23'), ('17', '18'), ('19', '18'), ('8', '5'), ('45', '44'), ('31', '36'), ('10', '19'), ('40', '41'), ('4', '33'), ('44', '45'), ('16', '23'), ('19', '10'), ('20', '22'), ('8', '33'), ('17', '16'), ('0', '2'), ('33', '4'), ('5', '4'), ('3', '2'), ('15', '14'), ('22', '25'), ('47', '45'), ('39', '27'), ('35', '31'), ('30', '32'), ('46', '2'), ('32', '30'), ('39', '2'), ('31', '30'), ('36', '37'), ('37', '31'), ('34', '42'), ('41', '42'), ('12', '40'), ('6', '7'), ('14', '15'), ('2', '3'), ('25', '21'), ('33', '31'), ('25', '22'), ('8', '27'), ('23', '16'), ('15', '16'), ('7', '4'), ('6', '1'), ('28', '12'), ('34', '29'), ('13', '14'), ('33', '8'), ('43', '44'), ('34', '45'), ('24', '22'), ('40', '12'), ('4', '2'), ('7', '6'), ('12', '28'), ('11', '25'), ('44', '43'), ('11', '21'), ('29', '34'), ('2', '46'), ('36', '35'), ('35', '36'), ('20', '21'), ('2', '4'), ('22', '24'), ('38', '27'), ('25', '11'), ('43', '29'), ('4', '5'), ('35', '40'), ('45', '34'), ('29', '28'), ('21', '25'), ('16', '14'), ('40', '35'), ('30', '31'), ('27', '8'), ('26', '27'), ('1', '6'), ('37', '36'), ('18', '19'), ('2', '39'), ('25', '24'), ('27', '33'), ('16', '21'), ('2', '0'), ('4', '7'), ('46', '45'), ('16', '15'), ('29', '13'), ('38', '47'), ('45', '47'), ('27', '39'), ('41', '40'), ('27', '26'), ('8', '9'), ('30', '33'), ('33', '27'), ('24', '25'), ('33', '30'), ('31', '35'), ('31', '33'), ('13', '29'), ('42', '41'), ('12', '14'), ('1', '2'), ('31', '37'), ('22', '20'), ('28', '29'), ('14', '16'), ('21', '11'), ('21', '20'), ('23', '20'), ('27', '38'), ('2', '1'), ('36', '31'), ('5', '8'), ('21', '16'), ('42', '34'), ('14', '13'), ('14', '12'), ('45', '46'), ('47', '38'), ('16', '17')}
+
+ scenario_parameter_combination_list:
+  [{'node_placement_restriction_mapping': {'neighbors': {'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': 0.3}}}, 'profit_calculation': {'random': {'RandomEmbeddingProfitCalculator': {'iterations': 200, 'profit_factor': 1.0}}}, 'request_generation': {'exponential': {'ExponentialRequestGenerator': {'edge_resource_factor': 100, 'max_number_of_nodes': 10, 'min_number_of_nodes': 8, 'node_resource_factor': 0.1, 'normalize': True, 'number_of_requests': 5, 'probability': 0.2}}}, 'substrate_generation': {'substrates': {'TopologyZooReader': {'edge_capacity': 100.0, 'node_capacity': 100.0, 'node_cost_factor': 1.0, 'node_type_distribution': 0.3, 'node_types': ('t1', 't2', 't3'), 'topology': 'Bellcanada'}}}, 'repetition': 0, 'maxrepetition': 1}]
+   node_placement_restriction_mapping:
+    {'neighbors': {'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': 0.3}}}
+   profit_calculation:
+    {'random': {'RandomEmbeddingProfitCalculator': {'iterations': 200, 'profit_factor': 1.0}}}
+   request_generation:
+    {'exponential': {'ExponentialRequestGenerator': {'edge_resource_factor': 100, 'max_number_of_nodes': 10, 'min_number_of_nodes': 8, 'node_resource_factor': 0.1, 'normalize': True, 'number_of_requests': 5, 'probability': 0.2}}}
+   substrate_generation:
+    {'substrates': {'TopologyZooReader': {'edge_capacity': 100.0, 'node_capacity': 100.0, 'node_cost_factor': 1.0, 'node_type_distribution': 0.3, 'node_types': ('t1', 't2', 't3'), 'topology': 'Bellcanada'}}}
+   repetition: 0
+   maxrepetition: 1
+
+ scenario_parameter_dict:
+  substrate_generation:
+   {'substrates': {'all': {0}, 'TopologyZooReader': {'edge_capacity': {100.0: {0}}, 'node_capacity': {100.0: {0}}, 'node_cost_factor': {1.0: {0}}, 'node_type_distribution': {0.3: {0}}, 'node_types': {('t1', 't2', 't3'): {0}}, 'topology': {'Bellcanada': {0}}}}}
+  request_generation:
+   {'exponential': {'all': {0}, 'ExponentialRequestGenerator': {'edge_resource_factor': {100: {0}}, 'max_number_of_nodes': {10: {0}}, 'min_number_of_nodes': {8: {0}}, 'node_resource_factor': {0.1: {0}}, 'normalize': {True: {0}}, 'number_of_requests': {5: {0}}, 'probability': {0.2: {0}}}}}
+  profit_calculation:
+   {'random': {'all': {0}, 'RandomEmbeddingProfitCalculator': {'iterations': {200: {0}}, 'profit_factor': {1.0: {0}}}}}
+  node_placement_restriction_mapping:
+   {'neighbors': {'all': {0}, 'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': {0.3: {0}}}}}
+
+ scenario_triple:
+  0:
+   ({'node_placement_restriction_mapping': {'neighbors': {'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': 0.3}}}, 'profit_calculation': {'random': {'RandomEmbeddingProfitCalculator': {'iterations': 200, 'profit_factor': 1.0}}}, 'request_generation': {'exponential': {'ExponentialRequestGenerator': {'edge_resource_factor': 100, 'max_number_of_nodes': 10, 'min_number_of_nodes': 8, 'node_resource_factor': 0.1, 'normalize': True, 'number_of_requests': 5, 'probability': 0.2}}}, 'substrate_generation': {'substrates': {'TopologyZooReader': {'edge_capacity': 100.0, 'node_capacity': 100.0, 'node_cost_factor': 1.0, 'node_type_distribution': 0.3, 'node_types': ('t1', 't2', 't3'), 'topology': 'Bellcanada'}}}, 'repetition': 0, 'maxrepetition': 1}, <alib.datamodel.Scenario object at 0x0000021CAD139BE0>)
+    node_placement_restriction_mapping:
+     {'neighbors': {'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': 0.3}}}
+    profit_calculation:
+     {'random': {'RandomEmbeddingProfitCalculator': {'iterations': 200, 'profit_factor': 1.0}}}
+    request_generation:
+     {'exponential': {'ExponentialRequestGenerator': {'edge_resource_factor': 100, 'max_number_of_nodes': 10, 'min_number_of_nodes': 8, 'node_resource_factor': 0.1, 'normalize': True, 'number_of_requests': 5, 'probability': 0.2}}}
+    substrate_generation:
+     {'substrates': {'TopologyZooReader': {'edge_capacity': 100.0, 'node_capacity': 100.0, 'node_cost_factor': 1.0, 'node_type_distribution': 0.3, 'node_types': ('t1', 't2', 't3'), 'topology': 'Bellcanada'}}}
+    repetition: 0
+    maxrepetition: 1
+   alib.datamodel.Scenario @ 0x21cad139be0
+    name: scenario_0.0_rep_0
+    objective: 1
+    requests:
+     [<alib.datamodel.Request object at 0x0000021CAD139D30>, <alib.datamodel.Request object at 0x0000021CAD14D978>, <alib.datamodel.Request object at 0x0000021CAD1571D0>, <alib.datamodel.Request object at 0x0000021CAD157908>, <alib.datamodel.Request object at 0x0000021CAD160198>]
+     alib.datamodel.Request @ 0x21cad139d30
+      _shortest_paths_attribute_identifier: cost
+      edge:
+       ('6', '4'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('3', '10'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('3', '1'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('3', '7'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('10', '1'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('10', '2'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('10', '5'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('10', '9'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('1', '3'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('2', '6'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('2', '1'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('2', '4'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('8', '6'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('8', '3'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('8', '10'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('8', '2'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('8', '7'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('5', '10'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('5', '8'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('7', '6'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('7', '3'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('9', '6'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('9', '3'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('9', '7'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+       ('4', '10'):
+        demand: 0.36674394036280356
+        allowed_edges: None
+      edges:
+       {('3', '10'), ('10', '9'), ('2', '4'), ('4', '10'), ('10', '5'), ('8', '10'), ('9', '3'), ('3', '7'), ('8', '6'), ('5', '10'), ('9', '7'), ('3', '1'), ('8', '2'), ('2', '6'), ('8', '3'), ('1', '3'), ('7', '3'), ('2', '1'), ('5', '8'), ('9', '6'), ('10', '2'), ('6', '4'), ('7', '6'), ('10', '1'), ('8', '7')}
+        ('3', '10')
+        ('10', '9')
+        ('2', '4')
+        ('4', '10')
+        ('10', '5')
+        ('8', '10')
+        ('9', '3')
+        ('3', '7')
+        ('8', '6')
+        ('5', '10')
+        ('9', '7')
+        ('3', '1')
+        ('8', '2')
+        ('2', '6')
+        ('8', '3')
+        ('1', '3')
+        ('7', '3')
+        ('2', '1')
+        ('5', '8')
+        ('9', '6')
+        ('10', '2')
+        ('6', '4')
+        ('7', '6')
+        ('10', '1')
+        ('8', '7')
+      graph:
+       profit_calculation_time: 0.0
+      in_edges:
+       1:
+        [('3', '1'), ('10', '1'), ('2', '1')]
+         ('3', '1')
+         ('10', '1')
+         ('2', '1')
+       2:
+        [('10', '2'), ('8', '2')]
+         ('10', '2')
+         ('8', '2')
+       3:
+        [('1', '3'), ('8', '3'), ('7', '3'), ('9', '3')]
+         ('1', '3')
+         ('8', '3')
+         ('7', '3')
+         ('9', '3')
+       4:
+        [('6', '4'), ('2', '4')]
+         ('6', '4')
+         ('2', '4')
+       5:
+        [('10', '5')]
+       6:
+        [('2', '6'), ('8', '6'), ('7', '6'), ('9', '6')]
+         ('2', '6')
+         ('8', '6')
+         ('7', '6')
+         ('9', '6')
+       7:
+        [('3', '7'), ('8', '7'), ('9', '7')]
+         ('3', '7')
+         ('8', '7')
+         ('9', '7')
+       8:
+        [('5', '8')]
+       9:
+        [('10', '9')]
+       10:
+        [('3', '10'), ('8', '10'), ('5', '10'), ('4', '10')]
+         ('3', '10')
+         ('8', '10')
+         ('5', '10')
+         ('4', '10')
+      in_neighbors:
+       1:
+        ['3', '10', '2']
+       2:
+        ['10', '8']
+       3:
+        ['1', '8', '7', '9']
+       4:
+        ['6', '2']
+       5:
+        ['10']
+       6:
+        ['2', '8', '7', '9']
+       7:
+        ['3', '8', '9']
+       8:
+        ['5']
+       9:
+        ['10']
+       10:
+        ['3', '8', '5', '4']
+      name: vnet_1
+      node:
+       1:
+        demand: 1.8407289340527617
+        allowed_nodes:
+         {'46', '44', '34', '45'}
+        type: t1
+       2:
+        demand: 2.2147912809966965
+        allowed_nodes:
+         {'7', '3', '6', '2'}
+        type: t3
+       3:
+        demand: 2.2147912809966965
+        allowed_nodes:
+         {'45', '3', '7', '2'}
+        type: t3
+       4:
+        demand: 2.2147912809966965
+        allowed_nodes:
+         {'8', '7', '31', '2'}
+        type: t3
+       5:
+        demand: 2.2147912809966965
+        allowed_nodes:
+         {'7', '3', '6', '2'}
+        type: t3
+       6:
+        demand: 1.8546962094763753
+        allowed_nodes:
+         {'24', '23', '28', '22'}
+        type: t2
+       7:
+        demand: 1.8407289340527617
+        allowed_nodes:
+         {'15', '16', '21', '40'}
+        type: t1
+       8:
+        demand: 1.8407289340527617
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       9:
+        demand: 1.8546962094763753
+        allowed_nodes:
+         {'42', '23', '46', '28'}
+        type: t2
+       10:
+        demand: 1.8407289340527617
+        allowed_nodes:
+         {'46', '44', '34', '45'}
+        type: t1
+      nodes:
+       {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+      out_edges:
+       1:
+        [('1', '3')]
+       2:
+        [('2', '6'), ('2', '1'), ('2', '4')]
+         ('2', '6')
+         ('2', '1')
+         ('2', '4')
+       3:
+        [('3', '10'), ('3', '1'), ('3', '7')]
+         ('3', '10')
+         ('3', '1')
+         ('3', '7')
+       4:
+        [('4', '10')]
+       5:
+        [('5', '10'), ('5', '8')]
+         ('5', '10')
+         ('5', '8')
+       6:
+        [('6', '4')]
+       7:
+        [('7', '6'), ('7', '3')]
+         ('7', '6')
+         ('7', '3')
+       8:
+        [('8', '6'), ('8', '3'), ('8', '10'), ('8', '2'), ('8', '7')]
+         ('8', '6')
+         ('8', '3')
+         ('8', '10')
+         ('8', '2')
+         ('8', '7')
+       9:
+        [('9', '6'), ('9', '3'), ('9', '7')]
+         ('9', '6')
+         ('9', '3')
+         ('9', '7')
+       10:
+        [('10', '1'), ('10', '2'), ('10', '5'), ('10', '9')]
+         ('10', '1')
+         ('10', '2')
+         ('10', '5')
+         ('10', '9')
+      out_neighbors:
+       1:
+        ['3']
+       2:
+        ['6', '1', '4']
+       3:
+        ['10', '1', '7']
+       4:
+        ['10']
+       5:
+        ['10', '8']
+       6:
+        ['4']
+       7:
+        ['6', '3']
+       8:
+        ['6', '3', '10', '2', '7']
+       9:
+        ['6', '3', '7']
+       10:
+        ['1', '2', '5', '9']
+      profit: 269.92144825569824
+      shortest_paths_costs: None
+      types:
+       {'t3', 't2', 't1'}
+     alib.datamodel.Request @ 0x21cad14d978
+      _shortest_paths_attribute_identifier: cost
+      edge:
+       ('6', '2'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('3', '2'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('3', '9'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('1', '6'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('1', '4'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('2', '9'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('8', '6'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('5', '6'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('5', '4'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('7', '6'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+       ('4', '7'):
+        demand: 1.6787333390780368
+        allowed_edges: None
+      edges:
+       {('5', '6'), ('1', '6'), ('3', '2'), ('8', '6'), ('3', '9'), ('2', '9'), ('7', '6'), ('1', '4'), ('5', '4'), ('4', '7'), ('6', '2')}
+        ('5', '6')
+        ('1', '6')
+        ('3', '2')
+        ('8', '6')
+        ('3', '9')
+        ('2', '9')
+        ('7', '6')
+        ('1', '4')
+        ('5', '4')
+        ('4', '7')
+        ('6', '2')
+      graph:
+       profit_calculation_time: 0.015625
+      in_edges:
+       1:
+        []
+       2:
+        [('6', '2'), ('3', '2')]
+         ('6', '2')
+         ('3', '2')
+       3:
+        []
+       4:
+        [('1', '4'), ('5', '4')]
+         ('1', '4')
+         ('5', '4')
+       5:
+        []
+       6:
+        [('1', '6'), ('8', '6'), ('5', '6'), ('7', '6')]
+         ('1', '6')
+         ('8', '6')
+         ('5', '6')
+         ('7', '6')
+       7:
+        [('4', '7')]
+       8:
+        []
+       9:
+        [('3', '9'), ('2', '9')]
+         ('3', '9')
+         ('2', '9')
+      in_neighbors:
+       1:
+        []
+       2:
+        ['6', '3']
+       3:
+        []
+       4:
+        ['1', '5']
+       5:
+        []
+       6:
+        ['1', '8', '5', '7']
+       7:
+        ['4']
+       8:
+        []
+       9:
+        ['3', '2']
+      name: vnet_2
+      node:
+       1:
+        demand: 8.425750747900718
+        allowed_nodes:
+         {'15', '16', '24', '21'}
+        type: t1
+       2:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'33', '4', '27', '26'}
+        type: t2
+       3:
+        demand: 8.425750747900718
+        allowed_nodes:
+         {'28', '34', '35', '40'}
+        type: t1
+       4:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'24', '23', '28', '22'}
+        type: t2
+       5:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'33', '4', '27', '30'}
+        type: t2
+       6:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'33', '4', '27', '30'}
+        type: t2
+       7:
+        demand: 8.425750747900718
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       8:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'4', '42', '3', '46'}
+        type: t2
+       9:
+        demand: 8.489684540198718
+        allowed_nodes:
+         {'24', '23', '28', '22'}
+        type: t2
+      nodes:
+       {'3', '7', '6', '1', '5', '8', '9', '4', '2'}
+      out_edges:
+       1:
+        [('1', '6'), ('1', '4')]
+         ('1', '6')
+         ('1', '4')
+       2:
+        [('2', '9')]
+       3:
+        [('3', '2'), ('3', '9')]
+         ('3', '2')
+         ('3', '9')
+       4:
+        [('4', '7')]
+       5:
+        [('5', '6'), ('5', '4')]
+         ('5', '6')
+         ('5', '4')
+       6:
+        [('6', '2')]
+       7:
+        [('7', '6')]
+       8:
+        [('8', '6')]
+       9:
+        []
+      out_neighbors:
+       1:
+        ['6', '4']
+       2:
+        ['9']
+       3:
+        ['2', '9']
+       4:
+        ['7']
+       5:
+        ['6', '4']
+       6:
+        ['2']
+       7:
+        ['6']
+       8:
+        ['6']
+       9:
+        []
+      profit: 888.4312518487013
+      shortest_paths_costs: None
+      types:
+       {'t2', 't1'}
+     alib.datamodel.Request @ 0x21cad1571d0
+      _shortest_paths_attribute_identifier: cost
+      edge:
+       ('6', '3'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('6', '10'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('6', '9'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('3', '2'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('10', '6'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('2', '10'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('2', '7'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('8', '1'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('8', '9'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('5', '6'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('5', '2'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('7', '10'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('9', '6'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('9', '4'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('4', '1'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+       ('4', '2'):
+        demand: 0.9932321749176909
+        allowed_edges: None
+      edges:
+       {('7', '10'), ('8', '9'), ('5', '6'), ('6', '10'), ('8', '1'), ('9', '6'), ('5', '2'), ('6', '9'), ('2', '10'), ('4', '2'), ('9', '4'), ('4', '1'), ('6', '3'), ('10', '6'), ('3', '2'), ('2', '7')}
+        ('7', '10')
+        ('8', '9')
+        ('5', '6')
+        ('6', '10')
+        ('8', '1')
+        ('9', '6')
+        ('5', '2')
+        ('6', '9')
+        ('2', '10')
+        ('4', '2')
+        ('9', '4')
+        ('4', '1')
+        ('6', '3')
+        ('10', '6')
+        ('3', '2')
+        ('2', '7')
+      graph:
+       profit_calculation_time: 0.015625
+      in_edges:
+       1:
+        [('8', '1'), ('4', '1')]
+         ('8', '1')
+         ('4', '1')
+       2:
+        [('3', '2'), ('5', '2'), ('4', '2')]
+         ('3', '2')
+         ('5', '2')
+         ('4', '2')
+       3:
+        [('6', '3')]
+       4:
+        [('9', '4')]
+       5:
+        []
+       6:
+        [('10', '6'), ('5', '6'), ('9', '6')]
+         ('10', '6')
+         ('5', '6')
+         ('9', '6')
+       7:
+        [('2', '7')]
+       8:
+        []
+       9:
+        [('6', '9'), ('8', '9')]
+         ('6', '9')
+         ('8', '9')
+       10:
+        [('6', '10'), ('2', '10'), ('7', '10')]
+         ('6', '10')
+         ('2', '10')
+         ('7', '10')
+      in_neighbors:
+       1:
+        ['8', '4']
+       2:
+        ['3', '5', '4']
+       3:
+        ['6']
+       4:
+        ['9']
+       5:
+        []
+       6:
+        ['10', '5', '9']
+       7:
+        ['2']
+       8:
+        []
+       9:
+        ['6', '8']
+       10:
+        ['6', '2', '7']
+      name: vnet_3
+      node:
+       1:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'15', '16', '25', '14'}
+        type: t3
+       2:
+        demand: 4.985143587633704
+        allowed_nodes:
+         {'28', '34', '40', '45'}
+        type: t1
+       3:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'29', '42', '2', '45'}
+        type: t3
+       4:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'29', '42', '14', '45'}
+        type: t3
+       5:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'29', '42', '2', '45'}
+        type: t3
+       6:
+        demand: 4.985143587633704
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       7:
+        demand: 4.985143587633704
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       8:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'7', '3', '6', '2'}
+        type: t3
+       9:
+        demand: 5.998195795237739
+        allowed_nodes:
+         {'8', '31', '9', '2'}
+        type: t3
+       10:
+        demand: 5.022970381262377
+        allowed_nodes:
+         {'33', '4', '27', '30'}
+        type: t2
+      nodes:
+       {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+      out_edges:
+       1:
+        []
+       2:
+        [('2', '10'), ('2', '7')]
+         ('2', '10')
+         ('2', '7')
+       3:
+        [('3', '2')]
+       4:
+        [('4', '1'), ('4', '2')]
+         ('4', '1')
+         ('4', '2')
+       5:
+        [('5', '6'), ('5', '2')]
+         ('5', '6')
+         ('5', '2')
+       6:
+        [('6', '3'), ('6', '10'), ('6', '9')]
+         ('6', '3')
+         ('6', '10')
+         ('6', '9')
+       7:
+        [('7', '10')]
+       8:
+        [('8', '1'), ('8', '9')]
+         ('8', '1')
+         ('8', '9')
+       9:
+        [('9', '6'), ('9', '4')]
+         ('9', '6')
+         ('9', '4')
+       10:
+        [('10', '6')]
+      out_neighbors:
+       1:
+        []
+       2:
+        ['10', '7']
+       3:
+        ['2']
+       4:
+        ['1', '2']
+       5:
+        ['6', '2']
+       6:
+        ['3', '10', '9']
+       7:
+        ['10']
+       8:
+        ['1', '9']
+       9:
+        ['6', '4']
+       10:
+        ['6']
+      profit: 627.9975113205179
+      shortest_paths_costs: None
+      types:
+       {'t3', 't2', 't1'}
+     alib.datamodel.Request @ 0x21cad157908
+      _shortest_paths_attribute_identifier: cost
+      edge:
+       ('6', '3'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('6', '8'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('6', '4'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('3', '1'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('3', '5'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('3', '9'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('3', '4'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('10', '3'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('10', '1'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('1', '3'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('1', '10'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('1', '2'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('5', '6'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('5', '3'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('7', '5'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('7', '9'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('9', '1'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('9', '2'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('9', '4'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('4', '2'):
+        demand: 2.654488139023237
+        allowed_edges: None
+       ('4', '5'):
+        demand: 2.654488139023237
+        allowed_edges: None
+      edges:
+       {('9', '2'), ('3', '9'), ('3', '5'), ('4', '5'), ('1', '10'), ('10', '3'), ('5', '3'), ('3', '1'), ('7', '5'), ('6', '3'), ('1', '2'), ('5', '6'), ('9', '1'), ('3', '4'), ('1', '3'), ('4', '2'), ('6', '4'), ('7', '9'), ('10', '1'), ('6', '8'), ('9', '4')}
+        ('9', '2')
+        ('3', '9')
+        ('3', '5')
+        ('4', '5')
+        ('1', '10')
+        ('10', '3')
+        ('5', '3')
+        ('3', '1')
+        ('7', '5')
+        ('6', '3')
+        ('1', '2')
+        ('5', '6')
+        ('9', '1')
+        ('3', '4')
+        ('1', '3')
+        ('4', '2')
+        ('6', '4')
+        ('7', '9')
+        ('10', '1')
+        ('6', '8')
+        ('9', '4')
+      graph:
+       profit_calculation_time: 0.0
+      in_edges:
+       1:
+        [('3', '1'), ('10', '1'), ('9', '1')]
+         ('3', '1')
+         ('10', '1')
+         ('9', '1')
+       2:
+        [('1', '2'), ('9', '2'), ('4', '2')]
+         ('1', '2')
+         ('9', '2')
+         ('4', '2')
+       3:
+        [('6', '3'), ('10', '3'), ('1', '3'), ('5', '3')]
+         ('6', '3')
+         ('10', '3')
+         ('1', '3')
+         ('5', '3')
+       4:
+        [('6', '4'), ('3', '4'), ('9', '4')]
+         ('6', '4')
+         ('3', '4')
+         ('9', '4')
+       5:
+        [('3', '5'), ('7', '5'), ('4', '5')]
+         ('3', '5')
+         ('7', '5')
+         ('4', '5')
+       6:
+        [('5', '6')]
+       7:
+        []
+       8:
+        [('6', '8')]
+       9:
+        [('3', '9'), ('7', '9')]
+         ('3', '9')
+         ('7', '9')
+       10:
+        [('1', '10')]
+      in_neighbors:
+       1:
+        ['3', '10', '9']
+       2:
+        ['1', '9', '4']
+       3:
+        ['6', '10', '1', '5']
+       4:
+        ['6', '3', '9']
+       5:
+        ['3', '7', '4']
+       6:
+        ['5']
+       7:
+        []
+       8:
+        ['6']
+       9:
+        ['3', '7']
+       10:
+        ['1']
+      name: vnet_4
+      node:
+       1:
+        demand: 13.424268400115958
+        allowed_nodes:
+         {'33', '4', '27', '26'}
+        type: t2
+       2:
+        demand: 13.424268400115958
+        allowed_nodes:
+         {'33', '4', '6', '7'}
+        type: t2
+       3:
+        demand: 13.323173432030663
+        allowed_nodes:
+         {'7', '35', '26', '45'}
+        type: t1
+       4:
+        demand: 13.424268400115958
+        allowed_nodes:
+         {'24', '23', '28', '22'}
+        type: t2
+       5:
+        demand: 16.030632108063852
+        allowed_nodes:
+         {'29', '42', '14', '45'}
+        type: t3
+       6:
+        demand: 13.424268400115958
+        allowed_nodes:
+         {'33', '4', '27', '30'}
+        type: t2
+       7:
+        demand: 13.323173432030663
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       8:
+        demand: 13.424268400115958
+        allowed_nodes:
+         {'33', '4', '27', '26'}
+        type: t2
+       9:
+        demand: 13.323173432030663
+        allowed_nodes:
+         {'28', '34', '35', '40'}
+        type: t1
+       10:
+        demand: 16.030632108063852
+        allowed_nodes:
+         {'7', '3', '6', '2'}
+        type: t3
+      nodes:
+       {'3', '10', '7', '6', '1', '5', '8', '9', '4', '2'}
+      out_edges:
+       1:
+        [('1', '3'), ('1', '10'), ('1', '2')]
+         ('1', '3')
+         ('1', '10')
+         ('1', '2')
+       2:
+        []
+       3:
+        [('3', '1'), ('3', '5'), ('3', '9'), ('3', '4')]
+         ('3', '1')
+         ('3', '5')
+         ('3', '9')
+         ('3', '4')
+       4:
+        [('4', '2'), ('4', '5')]
+         ('4', '2')
+         ('4', '5')
+       5:
+        [('5', '6'), ('5', '3')]
+         ('5', '6')
+         ('5', '3')
+       6:
+        [('6', '3'), ('6', '8'), ('6', '4')]
+         ('6', '3')
+         ('6', '8')
+         ('6', '4')
+       7:
+        [('7', '5'), ('7', '9')]
+         ('7', '5')
+         ('7', '9')
+       8:
+        []
+       9:
+        [('9', '1'), ('9', '2'), ('9', '4')]
+         ('9', '1')
+         ('9', '2')
+         ('9', '4')
+       10:
+        [('10', '3'), ('10', '1')]
+         ('10', '3')
+         ('10', '1')
+      out_neighbors:
+       1:
+        ['3', '10', '2']
+       2:
+        []
+       3:
+        ['1', '5', '9', '4']
+       4:
+        ['2', '5']
+       5:
+        ['6', '3']
+       6:
+        ['3', '8', '4']
+       7:
+        ['5', '9']
+       8:
+        []
+       9:
+        ['1', '2', '4']
+       10:
+        ['3', '1']
+      profit: 1868.5546132289765
+      shortest_paths_costs: None
+      types:
+       {'t3', 't2', 't1'}
+     alib.datamodel.Request @ 0x21cad160198
+      _shortest_paths_attribute_identifier: cost
+      edge:
+       ('6', '1'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('6', '2'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('3', '1'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('3', '5'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('1', '3'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('1', '4'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('2', '4'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('8', '3'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('8', '2'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('5', '9'):
+        demand: 2.611760822081863
+        allowed_edges: None
+       ('7', '2'):
+        demand: 2.611760822081863
+        allowed_edges: None
+      edges:
+       {('5', '9'), ('6', '1'), ('2', '4'), ('8', '2'), ('1', '4'), ('8', '3'), ('1', '3'), ('3', '1'), ('6', '2'), ('3', '5'), ('7', '2')}
+        ('5', '9')
+        ('6', '1')
+        ('2', '4')
+        ('8', '2')
+        ('1', '4')
+        ('8', '3')
+        ('1', '3')
+        ('3', '1')
+        ('6', '2')
+        ('3', '5')
+        ('7', '2')
+      graph:
+       profit_calculation_time: 0.015625
+      in_edges:
+       1:
+        [('6', '1'), ('3', '1')]
+         ('6', '1')
+         ('3', '1')
+       2:
+        [('6', '2'), ('8', '2'), ('7', '2')]
+         ('6', '2')
+         ('8', '2')
+         ('7', '2')
+       3:
+        [('1', '3'), ('8', '3')]
+         ('1', '3')
+         ('8', '3')
+       4:
+        [('1', '4'), ('2', '4')]
+         ('1', '4')
+         ('2', '4')
+       5:
+        [('3', '5')]
+       6:
+        []
+       7:
+        []
+       8:
+        []
+       9:
+        [('5', '9')]
+      in_neighbors:
+       1:
+        ['6', '3']
+       2:
+        ['6', '8', '7']
+       3:
+        ['1', '8']
+       4:
+        ['1', '2']
+       5:
+        ['3']
+       6:
+        []
+       7:
+        []
+       8:
+        []
+       9:
+        ['5']
+      name: vnet_5
+      node:
+       1:
+        demand: 15.77259897211477
+        allowed_nodes:
+         {'29', '42', '14', '45'}
+        type: t3
+       2:
+        demand: 15.77259897211477
+        allowed_nodes:
+         {'15', '16', '29', '14'}
+        type: t3
+       3:
+        demand: 15.77259897211477
+        allowed_nodes:
+         {'15', '16', '29', '14'}
+        type: t3
+       4:
+        demand: 13.108720240273424
+        allowed_nodes:
+         {'7', '35', '26', '45'}
+        type: t1
+       5:
+        demand: 13.108720240273424
+        allowed_nodes:
+         {'7', '46', '3', '45'}
+        type: t1
+       6:
+        demand: 13.108720240273424
+        allowed_nodes:
+         {'46', '44', '34', '45'}
+        type: t1
+       7:
+        demand: 13.108720240273424
+        allowed_nodes:
+         {'7', '35', '26', '45'}
+        type: t1
+       8:
+        demand: 15.77259897211477
+        allowed_nodes:
+         {'8', '31', '9', '2'}
+        type: t3
+       9:
+        demand: 13.208187958012765
+        allowed_nodes:
+         {'24', '23', '28', '22'}
+        type: t2
+      nodes:
+       {'3', '7', '6', '1', '5', '8', '9', '4', '2'}
+      out_edges:
+       1:
+        [('1', '3'), ('1', '4')]
+         ('1', '3')
+         ('1', '4')
+       2:
+        [('2', '4')]
+       3:
+        [('3', '1'), ('3', '5')]
+         ('3', '1')
+         ('3', '5')
+       4:
+        []
+       5:
+        [('5', '9')]
+       6:
+        [('6', '1'), ('6', '2')]
+         ('6', '1')
+         ('6', '2')
+       7:
+        [('7', '2')]
+       8:
+        [('8', '3'), ('8', '2')]
+         ('8', '3')
+         ('8', '2')
+       9:
+        []
+      out_neighbors:
+       1:
+        ['3', '4']
+       2:
+        ['4']
+       3:
+        ['1', '5']
+       4:
+        []
+       5:
+        ['9']
+       6:
+        ['1', '2']
+       7:
+        ['2']
+       8:
+        ['3', '2']
+       9:
+        []
+      profit: 1509.477593233857
+      shortest_paths_costs: None
+      types:
+       {'t3', 't2', 't1'}
+    substrate: Substrate Bellcanada with following attributes: 
+		Nodes{'16', '3', '6', '26', '1', '5', '38', '18', '19', '45', '20', '41', '2', '46', '10', '27', '34', '31', '7', '29', '17', '9', '39', '4', '11', '42', '21', '30', '13', '43', '32', '40', '23', '36', '28', '15', '44', '22', '12', '0', '35', '14', '24', '33', '8', '37', '47', '25'}
+		Edges{('9', '8'), ('29', '43'), ('18', '17'), ('20', '23'), ('17', '18'), ('19', '18'), ('8', '5'), ('45', '44'), ('31', '36'), ('10', '19'), ('40', '41'), ('4', '33'), ('44', '45'), ('16', '23'), ('19', '10'), ('20', '22'), ('8', '33'), ('17', '16'), ('0', '2'), ('33', '4'), ('5', '4'), ('3', '2'), ('15', '14'), ('22', '25'), ('47', '45'), ('39', '27'), ('35', '31'), ('30', '32'), ('46', '2'), ('32', '30'), ('39', '2'), ('31', '30'), ('36', '37'), ('37', '31'), ('34', '42'), ('41', '42'), ('12', '40'), ('6', '7'), ('14', '15'), ('2', '3'), ('25', '21'), ('33', '31'), ('25', '22'), ('8', '27'), ('23', '16'), ('15', '16'), ('7', '4'), ('6', '1'), ('28', '12'), ('34', '29'), ('13', '14'), ('33', '8'), ('43', '44'), ('34', '45'), ('24', '22'), ('40', '12'), ('4', '2'), ('7', '6'), ('12', '28'), ('11', '25'), ('44', '43'), ('11', '21'), ('29', '34'), ('2', '46'), ('36', '35'), ('35', '36'), ('20', '21'), ('2', '4'), ('22', '24'), ('38', '27'), ('25', '11'), ('43', '29'), ('4', '5'), ('35', '40'), ('45', '34'), ('29', '28'), ('21', '25'), ('16', '14'), ('40', '35'), ('30', '31'), ('27', '8'), ('26', '27'), ('1', '6'), ('37', '36'), ('18', '19'), ('2', '39'), ('25', '24'), ('27', '33'), ('16', '21'), ('2', '0'), ('4', '7'), ('46', '45'), ('16', '15'), ('29', '13'), ('38', '47'), ('45', '47'), ('27', '39'), ('41', '40'), ('27', '26'), ('8', '9'), ('30', '33'), ('33', '27'), ('24', '25'), ('33', '30'), ('31', '35'), ('31', '33'), ('13', '29'), ('42', '41'), ('12', '14'), ('1', '2'), ('31', '37'), ('22', '20'), ('28', '29'), ('14', '16'), ('21', '11'), ('21', '20'), ('23', '20'), ('27', '38'), ('2', '1'), ('36', '31'), ('5', '8'), ('21', '16'), ('42', '34'), ('14', '13'), ('14', '12'), ('45', '46'), ('47', '38'), ('16', '17')}
+
+ scenarioparameter_room:
+  request_generation:
+   [{'exponential': {'ExponentialRequestGenerator': {'number_of_requests': [5], 'min_number_of_nodes': [8], 'max_number_of_nodes': [10], 'probability': [0.2], 'node_resource_factor': [0.1], 'edge_resource_factor': [100], 'normalize': [True]}}}]
+  profit_calculation:
+   [{'random': {'RandomEmbeddingProfitCalculator': {'profit_factor': [1.0], 'iterations': [200]}}}]
+  node_placement_restriction_mapping:
+   [{'neighbors': {'NeighborhoodSearchRestrictionGenerator': {'potential_nodes_factor': [0.3]}}}]
+  substrate_generation:
+   [{'substrates': {'TopologyZooReader': {'topology': ['Bellcanada'], 'node_types': [('t1', 't2', 't3')], 'node_capacity': [100.0], 'node_cost_factor': [1.0], 'edge_capacity': [100.0], 'node_type_distribution': [0.3]}}}]
+
